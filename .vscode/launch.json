@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        
+        {
+            "type": "aws-sam",
+            "request": "direct-invoke",
+            "name": "Native:d:/Native/meal-app/store/actions/meals.toggleFavorite (nodejs10.x)",
+            "invokeTarget": {
+                "target": "code",
+                "projectRoot": "\\Native\\meal-app",
+                "lambdaHandler": "d:/Native/meal-app/store/actions/meals.toggleFavorite"
+            },
+            "lambda": {
+                "runtime": "nodejs10.x",
+                "payload": {},
+                "environmentVariables": {}
+            }
+        }
+    ]
+}
